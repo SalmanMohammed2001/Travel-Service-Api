@@ -23,7 +23,7 @@ public class BookingDetails {
 
     private double total;
 
-    private byte[] bankSlip;
+    private String bankSlip;
 
 
     @ManyToOne()

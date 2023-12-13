@@ -41,7 +41,6 @@ public class Hotel {
     private String images;
     private boolean hotelStatus;
 
-
     @OneToOne(mappedBy = "hotel")
     private PackageDetails  packageDetails;
 }

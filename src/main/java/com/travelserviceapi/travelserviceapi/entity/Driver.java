@@ -16,10 +16,9 @@ public class Driver {
     private String driverName;
     private String driverContact;
     private String driverNic;
-    @Lob
-    private byte[] licenseImageFront;
-    @Lob
-    private byte[] licenseImageRear;
+    private String driverImage;
+    private String licenseImageFront;
+    private String licenseImageRear;
     private boolean driverStatus;
 
     @OneToOne(cascade = CascadeType.ALL)

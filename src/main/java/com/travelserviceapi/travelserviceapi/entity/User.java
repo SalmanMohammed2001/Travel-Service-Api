@@ -30,14 +30,10 @@ public class User {
     private Contact userContact;
     private String userEmail;
     private String userAddress;
-    @Lob
-    private byte[] userNicFrontImg;
 
-    @Lob
-    private byte[] userNicRearImg;
-
-    @Lob
-    private byte[] userProfilePic;
+    private String userNicFrontImg;
+    private String userNicRearImg;
+    private String userProfilePic;
 
     @OneToMany(mappedBy = "user")
     private List<Booking> bookings;

@@ -21,8 +21,8 @@ public class Booking {
     private String bookingDate;
     private double bookingPrice;
 
-    @Lob
-    private byte[] bankSlip;
+
+    private String bankSlip;
     private boolean bookingStatus;
 
 

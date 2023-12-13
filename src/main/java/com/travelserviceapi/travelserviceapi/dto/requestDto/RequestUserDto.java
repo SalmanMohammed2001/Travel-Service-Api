@@ -23,9 +23,9 @@ public class RequestUserDto {
     private Contact contact;
     private String email;
     private String address;
-    private byte[] nicFrontImg;
+/*    private byte[] nicFrontImg;
     private byte[] nicRearImg;
-    private byte[] profilePic;
+    private byte[] profilePic;*/
 
 
 
