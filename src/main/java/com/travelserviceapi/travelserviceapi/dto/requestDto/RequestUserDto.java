@@ -14,7 +14,6 @@ import java.util.List;
 @Data
 public class RequestUserDto {
 
-    private String userId;
     private String username;
     private String password;
     private String nic;
