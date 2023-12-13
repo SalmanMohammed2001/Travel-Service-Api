@@ -20,6 +20,8 @@ public class Booking {
     private String bookingId;
     private String bookingDate;
     private double bookingPrice;
+
+    @Lob
     private byte[] bankSlip;
     private boolean bookingStatus;
 

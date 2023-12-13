@@ -16,7 +16,9 @@ public class Driver {
     private String driverName;
     private String driverContact;
     private String driverNic;
+    @Lob
     private byte[] licenseImageFront;
+    @Lob
     private byte[] licenseImageRear;
     private boolean driverStatus;
 

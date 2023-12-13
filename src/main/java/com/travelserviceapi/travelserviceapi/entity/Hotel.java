@@ -38,7 +38,7 @@ public class Hotel {
     )
     private Collection<Price> hotelPrices;
 
-    private byte images;
+    private String images;
     private boolean hotelStatus;
 
 

@@ -21,11 +21,17 @@ public class Guide {
     private String guideBirthDate;
     private double guideManDayValue;
     private String guideExperience;
+    @Lob
     private byte[] guideIdFrontImage;
+    @Lob
     private byte[] guideIdRearImage;
+    @Lob
     private byte[] guideNicFrontImag;
+    @Lob
     private byte[] guideNicRearImage;
+    @Lob
     private byte[] guideProfilePicImage;
+
     private boolean guideStatus;
 
     @OneToOne(mappedBy = "guide")
